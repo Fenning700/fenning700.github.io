@@ -65,6 +65,9 @@ table {
     img.cv{
 		margin-left: 0 !important;
     }
+    .page-footer{
+		display: block !important;
+	}
 }
 @media screen and (max-width: 992px){
     .overlay-top {
@@ -324,4 +327,24 @@ div .project-pic{
 #tempo:hover .overlay-top, #balloons:hover .overlay-top {
 	bottom: 0;
 	height: 100%;
+}
+
+/*=======================*/
+/*-------FOOTER-------*/
+/*=======================*/
+
+.page-footer{
+	position: static;
+	left: 0;
+	bottom: 2vw;
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	display: none;
+	padding-top: 1.5rem;
+}
+.page-footer>a{
+	color: #000;
+	padding: 0 5px;
 }
