@@ -50,6 +50,48 @@ table {
 /*=======================*/
 
 /*=======================*/
+/*-------Reactivity-------*/
+/*=======================*/
+@media screen and (max-width: 768px) {
+    .fixed-left {
+        display: none !important;
+    }
+    .page-logo {
+    	position: static !important;
+    }
+    .row{
+    	margin-top: 80px;
+    }
+    img.cv{
+		margin-left: 0 !important;
+    }
+}
+@media screen and (max-width: 992px){
+    .overlay-top {
+		bottom: 0 !important;
+		height: 100% !important;
+	}
+	.overlay-bottom {
+		height: 100% !important;
+	}
+	.overlay-text{
+		top: 5% !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.description{
+		margin-left: 9vw !important;
+	}
+}
+.nav-item{
+	text-align: right;
+	z-index: 10000;
+}
+.navbar-toggler{
+	margin: 0 0 0 auto;
+}
+
+/*=======================*/
 /*-------HEADER-------*/
 /*=======================*/
 .page-header{
@@ -140,7 +182,8 @@ table {
 /*-------HOME PAGE-------*/
 /*=======================*/
 .page-main .row{
-	margin-left: 164px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	align-items: center;
 	display: flex;
@@ -153,8 +196,9 @@ table {
 }
 .who{
 	font-size: 28px;
-	font-family: 'Courgette', cursive;
+	font-family: 'Anonymous Pro', monospace;
 	margin-top: 30px;
+	font-style: italic;
 }
 .description{
 	font-size: 18px;
@@ -180,6 +224,7 @@ table {
 img.cv{
 	max-width: 85%;
 	height: auto;
+	margin-left: 20vw;
 }
 
 /*=======================*/
@@ -240,8 +285,11 @@ div .pic{
 	font-size: 16px;
 	font-family: 'Anonymous Pro', monospace;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	padding: 0 3px;
+}
+.overlay-align{
+	padding-left: 50px;
 }
 
 /*=======================*/
