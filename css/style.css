@@ -68,6 +68,10 @@ table {
     .page-footer{
 		display: block !important;
 	}
+	.overlay-align{
+		padding-left: 0 !important;
+}
+
 }
 @media screen and (max-width: 992px){
     .overlay-top {
@@ -93,6 +97,7 @@ table {
 .navbar-toggler{
 	margin: 0 0 0 auto;
 }
+
 
 /*=======================*/
 /*-------HEADER-------*/
@@ -342,7 +347,7 @@ div .project-pic{
 	text-align: center;
 	font-size: 1.5rem;
 	display: none;
-	padding-top: 1.5rem;
+	padding: 1.5rem 0;
 }
 .page-footer>a{
 	color: #000;
